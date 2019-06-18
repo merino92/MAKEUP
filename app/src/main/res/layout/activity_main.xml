@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:padding="10dp"
+android:background="@drawable/fondo">
+    <android.support.v7.widget.CardView
+            android:layout_width="201dp"
+            android:layout_height="182dp" app:cardCornerRadius="110dp" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="108dp" android:layout_alignParentStart="true" android:layout_marginStart="113dp"
+            android:layout_marginTop="38dp" android:layout_alignParentTop="true" app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/transparent">
+        <LinearLayout
+                android:background="@drawable/logo"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+            android:layout_width="401dp"
+            android:layout_height="319dp" app:contentPadding="5dp" app:cardElevation="20dp"
+            app:cardCornerRadius="25dp" android:layout_marginTop="252dp" android:layout_alignParentTop="true"
+            app:cardBackgroundColor="@android:color/background_light">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <EditText
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:ems="10"
+                    android:id="@+id/txtusuario" android:hint="User" android:fontFamily="@font/roboto_black"
+                    android:typeface="normal" android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"/>
+            <EditText
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/txtclave" android:hint="Password" android:fontFamily="@font/roboto_black"
+                    android:typeface="normal" android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"/>
+            <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" android:id="@+id/entrar"
+                    android:background="@drawable/boton" android:elevation="10dp" android:text="entrar"
+                    android:textColor="@android:color/background_light" android:textStyle="bold"
+                    android:fontFamily="@font/roboto_bold" android:textSize="24sp" android:onClick="Ingresar"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

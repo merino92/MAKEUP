@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="inicio" translatable="false">Home</string>
+    <string name="usuario" translatable="false">User</string>
+    <string name="clave" translatable="false">Password</string>
+    <string name="ingresar" translatable="false">Login</string>
+    <string name="f_producto" translatable="false">List of Products</string>
+</resources>
